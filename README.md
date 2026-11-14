@@ -9,14 +9,13 @@ before and after Reweighing, with an unweighted logistic-regression baseline, 10
 
 ## How to run
 
-bash
-
+```bash
 git clone https://github.com/tasdemirgokhan/data_wrangling_Assignment-4.git
 cd data_wrangling_Assignment-4
 python3.12 -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-
+```
 
 Open `Reweighing_Kamiran_Calders_2012.ipynb` from this folder, select the `.venv` kernel and run **Restart Kernel → Run All**. 
 The data are included; results go to `results/` and `figures/`.
